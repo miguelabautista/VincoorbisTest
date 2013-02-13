@@ -1,0 +1,82 @@
+h2 {
+	text-align: center;
+}
+
+footer {
+	width: auto;
+	height: 50px;
+}
+#formDatos{
+	padding-top:100px;
+	margin:auto 0;	
+	width: 940px;
+	text-align: center;
+}
+
+footer p {
+	color:#0000f2;
+	margin-top: auto;
+	text-align: center;
+	filter: dropshadow(color = #0f49bd, offx = 4, offy = 4);
+}
+
+#marco {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 15px 15px;
+	box-shadow: 0 0 3px 2px #d7e5f1;
+}
+
+#content {
+	min-height: 500px;
+}
+
+.table {
+	margin: 15px auto;
+	border: 2px solid #d7e5f1;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#tablaTemperature {
+	margin: auto auto;
+}
+
+#tablaTemperature td {
+	padding: 12px;
+}
+
+input:invalid,select:invalid,textarea:invalid {
+	background: #fff3f3;
+	border-color: #ffaaaa;
+	color: #cc0000;
+}
+
+input:invalid:focus,select:invalid:focus,textarea:invalid:focus {
+	-moz-box-shadow: 0 0 0.5em #ffaaaa;
+	-webkit-box-shadow: 0 0 0.5em #ffaaaa;
+	box-shadow: 0 0 0.5em #ffaaaa;
+}
+
+.paginateButtons {
+	background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+	border: 1px solid #ccc;
+	border-top: 0;
+	color: #666;
+	font-size: 10px;
+	overflow: hidden;
+	padding: 10px 3px;
+}
+
+.paginateButtons a {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-color: #ccc #aaa #aaa #ccc;
+	color: #666;
+	margin: 0 3px;
+	padding: 2px 6px;
+}
+
+.paginateButtons span {
+	padding: 2px 3px;
+}

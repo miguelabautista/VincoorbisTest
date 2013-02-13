@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="MIGUEL-PC" id="0" name="TemperatureServiceTestTests" package="com.vincoorbis.examen" tests="1" time="2.231" timestamp="2013-02-13T18:24:09">
+      <properties />
+
+      <testcase classname="com.vincoorbis.examen.TemperatureServiceTestTests" name="testConversion" time="2.22">
+          <failure message="org.junit.ComparisonFailure: expected:&lt;1[09.4]&gt; but was:&lt;1[29.2]&gt;" type="junit.framework.AssertionFailedError">	at com.vincoorbis.examen.TemperatureServiceTestTests.testConversion(TemperatureServiceTestTests.groovy:18)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testConversion--
+129.2
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testConversion--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
